@@ -25,7 +25,7 @@ function GoalInput(props) {
       <View style={styles.inputContainer}>
         {/* <Image
           style={styles.image}
-          source={require('../assets/images/goal.png')}
+          source={require('BOTA O CAMINHO DA FOTO AI PO')}
         /> */}
         <TextInput
           style={styles.textInput}
