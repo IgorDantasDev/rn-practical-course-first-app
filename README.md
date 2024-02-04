@@ -51,7 +51,7 @@
 First clone the project
 
 ```bash
-  git clone  git@github.com:IgorDantasDev/lighteria-expo-app.git
+  git clone  git@github.com:IgorDantasDev/rn-practical-course-first-app.git
 ```
 
 Enter the project directory
