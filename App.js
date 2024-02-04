@@ -34,7 +34,6 @@ const App = () => {
         />
         <Button onPress={onAddGoal} />
       </Header>
-
       <FlatList
         data={goals}
         renderItem={({ item }) => (
