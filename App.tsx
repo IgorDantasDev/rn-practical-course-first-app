@@ -11,7 +11,7 @@ const App = () => {
 
   const storeData = useCallback(async (values) => {
     try {
-      const jsonValue = JSON.stringify(values);
+      const jsonValue = JSON.stringify(values) || "";
       await AsyncStorage.setItem("data", jsonValue);
       console.log(jsonValue);
     } catch (e) {
